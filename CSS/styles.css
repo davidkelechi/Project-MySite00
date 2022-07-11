@@ -145,7 +145,7 @@ h4{
 .list:hover{
   text-decoration: underline;
 }
-.second-list{
+/* .second-list{
   position: relative;
   left: 50%;
   bottom: 195px;
@@ -154,7 +154,7 @@ h4{
   .second-list{
     left: 75%;
   }
-}
+} */
 .copyright{
   text-align: center;
   padding: 1.4rem 0 0 0;
