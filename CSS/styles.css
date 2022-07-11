@@ -97,9 +97,13 @@ h1{
   line-height: 1.2;
 }
 .c-img{
-  height: 240px;
+  height: 15rem;
 }
-
+@media (max-width: 1010px) {
+  .c-img{
+    height: 20.5rem;
+  }
+}
 
 /* Testimonials */
 #testimonial{
@@ -145,16 +149,17 @@ h4{
 .list:hover{
   text-decoration: underline;
 }
-/* .second-list{
-  position: relative;
+ /* .second-list{
+  position: absolute;
   left: 50%;
   bottom: 195px;
+  width:100%
 }
 @media (max-width: 1010px){
   .second-list{
     left: 75%;
   }
-} */
+}  */
 .copyright{
   text-align: center;
   padding: 1.4rem 0 0 0;
